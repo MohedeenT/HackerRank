@@ -7,7 +7,7 @@ function climbingLeaderboard(leaderboard, playerScores) {
 
     for (const score of playerScores) {
         while (i >= 0 && score >= distinctLeaderboard[i]) {
-            console.log(score + "is grearter than" + distinctLeaderboard[i] );
+            console.log(score + " is grearter than " + distinctLeaderboard[i] );
             i--;
         }
         if (i === -1) {
